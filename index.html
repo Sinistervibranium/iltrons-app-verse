@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Iltrons App Store</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body oncontextmenu="return false">
+  <header>
+    <h1 id="store-name">Iltrons App Store</h1>
+    <select id="language-switcher">
+      <option value="en">English</option>
+      <option value="ur">اردو</option>
+      <option value="hi">हिन्दी</option>
+      <option value="te">తెలుగు</option>
+    </select>
+    <input type="text" id="search-bar" placeholder="Search apps magically...">
+  </header>
+  <section id="slider">
+    <img src="assets/slider/slide1.png" onclick="window.open('https://example.com')" />
+  </section>
+  <section id="apps-container">
+    <div class="app-card" onclick="window.location='apps/app1.html'">
+      <img src="assets/icons/app1.png" alt="App Icon">
+      <h3>App One</h3>
+    </div>
+  </section>
+</body>
+</html>
